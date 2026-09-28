@@ -2,19 +2,19 @@
   "payment": "free",
   "optimization": "-O2",
   "dart": "3.13.0",
-  "sourceDigest": "fe70a27f092c7285f1257be34937a148b376a1e855eb069297a1c56c9e5ed7c0",
+  "sourceDigest": "df9bbadacf40839e4fad383c5f93caa54916fb24ff436218c929a5882742ef8d",
   "files": {
     "app.js": {
       "bytes": 9725,
       "gzip": 3394
     },
     "core.js": {
-      "bytes": 639179,
-      "gzip": 203140
+      "bytes": 639333,
+      "gzip": 203205
     },
     "core.js_1.part.js": {
       "bytes": 1288447,
-      "gzip": 385934
+      "gzip": 385954
     },
     "deadline.js": {
       "bytes": 7903,
