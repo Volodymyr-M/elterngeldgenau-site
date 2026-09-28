@@ -1,0 +1,76 @@
+{
+  "payment": "free",
+  "optimization": "-O2",
+  "dart": "3.13.0",
+  "sourceDigest": "3cbd34ab12713baec7514daf119f00fbd989ff555c203e8b58724522abd0bae7",
+  "files": {
+    "app.js": {
+      "bytes": 9725,
+      "gzip": 3394
+    },
+    "core.js": {
+      "bytes": 639179,
+      "gzip": 203140
+    },
+    "core.js_1.part.js": {
+      "bytes": 1288447,
+      "gzip": 385934
+    },
+    "deadline.js": {
+      "bytes": 7903,
+      "gzip": 2877
+    },
+    "fonts/Archivo-DossierDisplay.ttf": {
+      "bytes": 100716,
+      "gzip": 35449
+    },
+    "fonts/Archivo-DossierItalic.ttf": {
+      "bytes": 113428,
+      "gzip": 38946
+    },
+    "fonts/Archivo-DossierRegular.ttf": {
+      "bytes": 101360,
+      "gzip": 35344
+    },
+    "fonts/Archivo-DossierSemiBold.ttf": {
+      "bytes": 101264,
+      "gzip": 34890
+    },
+    "fonts/Archivo-OFL.txt": {
+      "bytes": 4388,
+      "gzip": 1976
+    },
+    "form.js": {
+      "bytes": 7601,
+      "gzip": 2695
+    },
+    "grid.js": {
+      "bytes": 8299,
+      "gzip": 3214
+    },
+    "paid-form.js": {
+      "bytes": 5470,
+      "gzip": 1901
+    },
+    "paid.js": {
+      "bytes": 10424,
+      "gzip": 3769
+    },
+    "result.js": {
+      "bytes": 10002,
+      "gzip": 3545
+    },
+    "router.js": {
+      "bytes": 3026,
+      "gzip": 1375
+    },
+    "save.js": {
+      "bytes": 2227,
+      "gzip": 905
+    },
+    "worker-client.js": {
+      "bytes": 4185,
+      "gzip": 1846
+    }
+  }
+}

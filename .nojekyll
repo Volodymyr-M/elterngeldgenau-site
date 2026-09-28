@@ -1,0 +1,15 @@
+GitHub Pages runs Jekyll over a published directory unless this file is
+present. Nothing here is a Jekyll site — the pages are built by
+generator/bin/build.dart and uploaded finished — so Jekyll would only be a
+second, unasked-for renderer running over the artefact the gate passed.
+
+It is not hypothetical. Jekyll excludes every path beginning with `_` or `.`
+from what it publishes. The calculator's own files are safe (`/calc/<hash8>/`),
+but any future underscore-prefixed path would silently stop being served, and
+Jekyll would also try to read `{{ … }}` and `{% … %}` in HTML it does not
+understand. An empty `.nojekyll` at the publishing root turns all of that off
+and GitHub Pages serves the files exactly as uploaded.
+
+The build copies this file from assets/root/ into _site/ with the favicon.
+generator/bin/verify.dart fails if it is missing from the artefact. See
+deploy/RUNBOOK.md § 2.
